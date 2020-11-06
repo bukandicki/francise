@@ -1,0 +1,23 @@
+.insert-product-image,
+.insert-partner-image,
+.image-viewer {
+    width: 350px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #eeeeee;
+    color: rgb(145, 145, 145);
+    font-weight: 700;
+    border-radius: 1.5em;
+    overflow: hidden;
+}
+
+.image-viewer img {
+    border-radius: 1.5em;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}

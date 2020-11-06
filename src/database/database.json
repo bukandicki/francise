@@ -1,0 +1,462 @@
+{
+  "products": [
+    {
+      "name": "Bakso Urat",
+      "price": "13500",
+      "stock": "5",
+      "image": "https://firebasestorage.googleapis.com/v0/b/francise-fb70a.appspot.com/o/cara-membuat-bakso-antigagal-di-rumah-aja-mk2rUI5Gb4.webp?alt=media&token=4f116428-6f54-4a15-9e32-7417d337482d",
+      "promo": false,
+      "id": 1
+    },
+    {
+      "name": "Spaghetti Roll Pedas",
+      "price": "250000",
+      "stock": "5",
+      "image": "https://firebasestorage.googleapis.com/v0/b/francise-fb70a.appspot.com/o/spaghetti-poll-pedas.jpg?alt=media&token=9b6d55ee-61cb-46fd-9487-186827ed2a77",
+      "promo": 4,
+      "id": 2
+    },
+    {
+      "name": "Martabak Manis",
+      "price": "39200",
+      "stock": "7",
+      "image": "https://firebasestorage.googleapis.com/v0/b/francise-fb70a.appspot.com/o/martabak-manis.jpg?alt=media&token=236f5d17-6d9b-453b-ab97-bbac7c894cea",
+      "promo": false,
+      "id": 3
+    },
+    {
+      "name": "Nasi Goreng Seafood",
+      "price": "32000",
+      "stock": "4",
+      "image": "https://firebasestorage.googleapis.com/v0/b/francise-fb70a.appspot.com/o/Resep-Nasi-Goreng-Kampung-1200x720.jpg?alt=media&token=da90dc6b-7f83-450f-b6a6-678706ee51a0",
+      "promo": 1,
+      "id": 4
+    },
+    {
+      "name": "Salad Buah",
+      "price": "15900",
+      "stock": "6",
+      "image": "https://firebasestorage.googleapis.com/v0/b/francise-fb70a.appspot.com/o/salad-buah-3.jpg?alt=media&token=ccb9e91b-c809-4cbe-bdc2-96f7835d8201",
+      "promo": 2,
+      "id": 5
+    },
+    {
+      "name": "Seblak Kuah Ceker",
+      "price": "12000",
+      "stock": "4",
+      "image": "https://firebasestorage.googleapis.com/v0/b/francise-fb70a.appspot.com/o/Resep-dan-Cara-membuat-Seblak-Mie.jpg?alt=media&token=f3a08159-b674-4dbb-a722-34b588adffd9",
+      "promo": 3,
+      "id": 6
+    },
+    {
+      "name": "Cheese Cakes",
+      "price": "21000",
+      "stock": "5",
+      "image": "https://firebasestorage.googleapis.com/v0/b/francise-fb70a.appspot.com/o/gluten-free-new-york-cheesecake-1450985-hero-01-dc54f9daf38044238b495c7cefc191fa.jpg?alt=media&token=cd181e33-15d7-460b-b77b-209580214c99",
+      "promo": 2,
+      "id": 7
+    },
+    {
+      "name": "Steak Sapi Impor",
+      "price": "38000",
+      "stock": "4",
+      "image": "https://firebasestorage.googleapis.com/v0/b/francise-fb70a.appspot.com/o/steak.jpg?alt=media&token=46e0d769-96d3-440f-8edb-5fce2481ace0",
+      "promo": 3,
+      "id": 8
+    },
+    {
+      "name": "Ayam Goreng",
+      "price": "12000",
+      "stock": "6",
+      "image": "https://firebasestorage.googleapis.com/v0/b/francise-fb70a.appspot.com/o/images_daging_ayam-goreng-1200x720.jpg?alt=media&token=8a92e51d-e216-4531-91fa-d5f480d0fb31",
+      "promo": 6,
+      "id": 9
+    }
+  ],
+  "partners": [
+    {
+      "name": "Amanda Foods Store",
+      "email": "amanda@food.com",
+      "store_image": "https://firebasestorage.googleapis.com/v0/b/francise-fb70a.appspot.com/o/full_hd_retina.jpeg?alt=media&token=3e602e86-661b-48ee-9e9c-af9f94a170d1",
+      "product": [
+        5,
+        7,
+        8,
+        2
+      ],
+      "store_promo": 6,
+      "location": {
+        "street_name": "Jl. Kebon Gedang II B",
+        "province": "Jawa Barat",
+        "city": "Bandung",
+        "post_code": "40285"
+      },
+      "id": 1
+    },
+    {
+      "name": "IcikiFoods",
+      "email": "icikifoods@asian.com",
+      "store_image": "https://firebasestorage.googleapis.com/v0/b/francise-fb70a.appspot.com/o/la-grande-patisserie-storefront-design-top.jpg?alt=media&token=a8e3254f-e889-4ba4-ba5f-5d382d4a1b98",
+      "product": [
+        8,
+        4,
+        5,
+        6,
+        1
+      ],
+      "store_promo": false,
+      "location": {
+        "street_name": "Jl. Riau No 2",
+        "province": "Jawa Barat",
+        "city": "Bandung",
+        "post_code": "40237"
+      },
+      "id": 2
+    },
+    {
+      "name": "Bintang Foods",
+      "email": "bintang@foods.co.id",
+      "store_image": "https://firebasestorage.googleapis.com/v0/b/francise-fb70a.appspot.com/o/029663700_1543346545-4-rekomendasi-resto-di-bogor-paling-hits-yang-wajib-dikunjungi.jpg?alt=media&token=6e3f61f0-9bf5-4ad6-9f47-1ae2036d093c",
+      "product": [
+        9,
+        5,
+        3
+      ],
+      "location": {
+        "street_name": "Jl. Bogor No 2",
+        "province": "Jawa Barat",
+        "city": "Bandung",
+        "post_code": "71239"
+      },
+      "id": 3,
+      "store_promo": 5
+    }
+  ],
+  "promo": [
+    {
+      "name": "Promo 17 Agustus",
+      "type": "discount",
+      "amount": "23",
+      "from": "2021-08-17",
+      "to": "2021-08-20",
+      "desc": "Meriahkan makan di hari kemerdekaan",
+      "id": 1
+    },
+    {
+      "name": "Mukbang Online",
+      "type": "discount",
+      "amount": "12",
+      "from": "2020-10-25",
+      "to": "2020-10-26",
+      "desc": "Makan Kenyang",
+      "id": 2
+    },
+    {
+      "name": "Promo Akhir Bulan",
+      "type": "discount",
+      "amount": "31",
+      "from": "2020-10-31",
+      "to": "2020-11-03",
+      "desc": "Peduli akhir bulan",
+      "id": 3
+    },
+    {
+      "name": "Promo 11.11",
+      "type": "discount",
+      "amount": "31",
+      "from": "2020-10-31",
+      "to": "2020-11-03",
+      "desc": "Peduli 11.11",
+      "id": 4
+    },
+    {
+      "name": "#Dirumah Aja",
+      "type": "discount",
+      "amount": "15",
+      "from": "2020-10-15",
+      "to": "2020-10-30",
+      "desc": "asdasd",
+      "id": 5
+    },
+    {
+      "name": "Promo Patungan",
+      "type": "discount",
+      "amount": "50",
+      "from": "2020-11-11",
+      "to": "2020-11-27",
+      "desc": "lebih murah beli ber 2",
+      "id": 6
+    }
+  ],
+  "cart": {
+    "cart_items": [],
+    "store": {},
+    "date": false
+  },
+  "penjualan": [
+    {
+      "name": "Dicki Maulana",
+      "tableCode": "M2-5NS2KS",
+      "dateOrder": "Nov 06 2020 13:57:52",
+      "datePayment": "Nov 06 2020 13:58:37",
+      "store": {
+        "name": "Bintang Foods",
+        "email": "bintang@foods.co.id",
+        "store_image": "https://firebasestorage.googleapis.com/v0/b/francise-fb70a.appspot.com/o/029663700_1543346545-4-rekomendasi-resto-di-bogor-paling-hits-yang-wajib-dikunjungi.jpg?alt=media&token=6e3f61f0-9bf5-4ad6-9f47-1ae2036d093c",
+        "product": [
+          9,
+          5,
+          3
+        ],
+        "location": {
+          "street_name": "Jl. Bogor No 2",
+          "province": "Jawa Barat",
+          "city": "Bandung",
+          "post_code": "71239"
+        },
+        "id": 3,
+        "store_promo": {
+          "name": "#Dirumah Aja",
+          "type": "discount",
+          "amount": "15",
+          "from": "2020-10-15",
+          "to": "2020-10-30",
+          "desc": "asdasd",
+          "id": 5
+        }
+      },
+      "product": [
+        {
+          "name": "Ayam Goreng",
+          "price": "12000",
+          "stock": "6",
+          "image": "https://firebasestorage.googleapis.com/v0/b/francise-fb70a.appspot.com/o/images_daging_ayam-goreng-1200x720.jpg?alt=media&token=8a92e51d-e216-4531-91fa-d5f480d0fb31",
+          "promo": {
+            "name": "Promo Patungan",
+            "type": "discount",
+            "amount": "50",
+            "from": "2020-11-11",
+            "to": "2020-11-27",
+            "desc": "lebih murah beli ber 2",
+            "id": 6
+          },
+          "id": 9
+        },
+        {
+          "name": "Salad Buah",
+          "price": "15900",
+          "stock": "6",
+          "image": "https://firebasestorage.googleapis.com/v0/b/francise-fb70a.appspot.com/o/salad-buah-3.jpg?alt=media&token=ccb9e91b-c809-4cbe-bdc2-96f7835d8201",
+          "promo": {
+            "name": "Mukbang Online",
+            "type": "discount",
+            "amount": "12",
+            "from": "2020-10-25",
+            "to": "2020-10-26",
+            "desc": "Makan Kenyang",
+            "id": 2
+          },
+          "id": 5
+        }
+      ],
+      "total": "Rp 23,715",
+      "cash": "Rp 25,000",
+      "changeDue": "Rp0",
+      "id": 1
+    },
+    {
+      "name": "Andri Novianto",
+      "tableCode": "M2-5NS2KS",
+      "dateOrder": "Nov 06 2020 14:00:53",
+      "datePayment": "Nov 06 2020 14:03:05",
+      "store": {
+        "name": "IcikiFoods",
+        "email": "icikifoods@asian.com",
+        "store_image": "https://firebasestorage.googleapis.com/v0/b/francise-fb70a.appspot.com/o/la-grande-patisserie-storefront-design-top.jpg?alt=media&token=a8e3254f-e889-4ba4-ba5f-5d382d4a1b98",
+        "product": [
+          8,
+          4,
+          5,
+          6,
+          1
+        ],
+        "location": {
+          "street_name": "Jl. Riau No 2",
+          "province": "Jawa Barat",
+          "city": "Bandung",
+          "post_code": "40237"
+        },
+        "id": 2
+      },
+      "product": [
+        {
+          "name": "Nasi Goreng Seafood",
+          "price": "32000",
+          "stock": "4",
+          "image": "https://firebasestorage.googleapis.com/v0/b/francise-fb70a.appspot.com/o/Resep-Nasi-Goreng-Kampung-1200x720.jpg?alt=media&token=da90dc6b-7f83-450f-b6a6-678706ee51a0",
+          "promo": {
+            "name": "Promo 17 Agustus",
+            "type": "discount",
+            "amount": "23",
+            "from": "2021-08-17",
+            "to": "2021-08-20",
+            "desc": "Meriahkan makan di hari kemerdekaan",
+            "id": 1
+          },
+          "id": 4
+        },
+        {
+          "name": "Steak Sapi Impor",
+          "price": "38000",
+          "stock": "4",
+          "image": "https://firebasestorage.googleapis.com/v0/b/francise-fb70a.appspot.com/o/steak.jpg?alt=media&token=46e0d769-96d3-440f-8edb-5fce2481ace0",
+          "promo": {
+            "name": "Promo Akhir Bulan",
+            "type": "discount",
+            "amount": "31",
+            "from": "2020-10-31",
+            "to": "2020-11-03",
+            "desc": "Peduli akhir bulan",
+            "id": 3
+          },
+          "id": 8
+        }
+      ],
+      "total": "Rp 50,860",
+      "cash": "Rp 90,000,000",
+      "changeDue": "Rp0",
+      "id": 2
+    },
+    {
+      "name": "Julia",
+      "tableCode": "M2-5NS2KS",
+      "dateOrder": "Nov 06 2020 14:08:17",
+      "datePayment": "Nov 06 2020 14:08:48",
+      "store": {
+        "name": "Bintang Foods",
+        "email": "bintang@foods.co.id",
+        "store_image": "https://firebasestorage.googleapis.com/v0/b/francise-fb70a.appspot.com/o/029663700_1543346545-4-rekomendasi-resto-di-bogor-paling-hits-yang-wajib-dikunjungi.jpg?alt=media&token=6e3f61f0-9bf5-4ad6-9f47-1ae2036d093c",
+        "product": [
+          9,
+          5,
+          3
+        ],
+        "location": {
+          "street_name": "Jl. Bogor No 2",
+          "province": "Jawa Barat",
+          "city": "Bandung",
+          "post_code": "71239"
+        },
+        "id": 3,
+        "store_promo": {
+          "name": "#Dirumah Aja",
+          "type": "discount",
+          "amount": "15",
+          "from": "2020-10-15",
+          "to": "2020-10-30",
+          "desc": "asdasd",
+          "id": 5
+        }
+      },
+      "product": [
+        {
+          "name": "Ayam Goreng",
+          "price": "12000",
+          "stock": "6",
+          "image": "https://firebasestorage.googleapis.com/v0/b/francise-fb70a.appspot.com/o/images_daging_ayam-goreng-1200x720.jpg?alt=media&token=8a92e51d-e216-4531-91fa-d5f480d0fb31",
+          "promo": {
+            "name": "Promo Patungan",
+            "type": "discount",
+            "amount": "50",
+            "from": "2020-11-11",
+            "to": "2020-11-27",
+            "desc": "lebih murah beli ber 2",
+            "id": 6
+          },
+          "id": 9
+        },
+        {
+          "name": "Martabak Manis",
+          "price": "39200",
+          "stock": "7",
+          "image": "https://firebasestorage.googleapis.com/v0/b/francise-fb70a.appspot.com/o/martabak-manis.jpg?alt=media&token=236f5d17-6d9b-453b-ab97-bbac7c894cea",
+          "id": 3
+        }
+      ],
+      "total": "Rp 43,520",
+      "cash": "Rp 100,000",
+      "changeDue": "Rp0",
+      "id": 3
+    },
+    {
+      "name": null,
+      "tableCode": "M2-5NS2KS",
+      "dateOrder": "Nov 06 2020 15:21:47",
+      "datePayment": "Nov 06 2020 15:26:38",
+      "store": {
+        "name": "IcikiFoods",
+        "email": "icikifoods@asian.com",
+        "store_image": "https://firebasestorage.googleapis.com/v0/b/francise-fb70a.appspot.com/o/la-grande-patisserie-storefront-design-top.jpg?alt=media&token=a8e3254f-e889-4ba4-ba5f-5d382d4a1b98",
+        "product": [
+          8,
+          4,
+          5,
+          6,
+          1
+        ],
+        "location": {
+          "street_name": "Jl. Riau No 2",
+          "province": "Jawa Barat",
+          "city": "Bandung",
+          "post_code": "40237"
+        },
+        "id": 2
+      },
+      "product": [
+        {
+          "name": "Nasi Goreng Seafood",
+          "price": "32000",
+          "stock": "4",
+          "image": "https://firebasestorage.googleapis.com/v0/b/francise-fb70a.appspot.com/o/Resep-Nasi-Goreng-Kampung-1200x720.jpg?alt=media&token=da90dc6b-7f83-450f-b6a6-678706ee51a0",
+          "promo": {
+            "name": "Promo 17 Agustus",
+            "type": "discount",
+            "amount": "23",
+            "from": "2021-08-17",
+            "to": "2021-08-20",
+            "desc": "Meriahkan makan di hari kemerdekaan",
+            "id": 1
+          },
+          "id": 4
+        },
+        {
+          "name": "Bakso Urat",
+          "price": "13500",
+          "stock": "5",
+          "image": "https://firebasestorage.googleapis.com/v0/b/francise-fb70a.appspot.com/o/cara-membuat-bakso-antigagal-di-rumah-aja-mk2rUI5Gb4.webp?alt=media&token=4f116428-6f54-4a15-9e32-7417d337482d",
+          "id": 1
+        },
+        {
+          "name": "Salad Buah",
+          "price": "15900",
+          "stock": "6",
+          "image": "https://firebasestorage.googleapis.com/v0/b/francise-fb70a.appspot.com/o/salad-buah-3.jpg?alt=media&token=ccb9e91b-c809-4cbe-bdc2-96f7835d8201",
+          "promo": {
+            "name": "Mukbang Online",
+            "type": "discount",
+            "amount": "12",
+            "from": "2020-10-25",
+            "to": "2020-10-26",
+            "desc": "Makan Kenyang",
+            "id": 2
+          },
+          "id": 5
+        }
+      ],
+      "total": "76,772",
+      "cash": 900000,
+      "changeDue": null,
+      "id": 4
+    }
+  ]
+}
