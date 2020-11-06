@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import database from '../database/database.json'
+import database from 'https://franchise-backend.herokuapp.com/db.json'
 
 Vue.use(Vuex)
 
