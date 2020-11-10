@@ -464,7 +464,7 @@ export default {
             )
          ) {
             this.$toast.success(
-               "Maaf uang anda kurang <b>Rp" +
+               this.name + "Maaf uang anda kurang <b>Rp" +
                   (
                      this.cash -
                      this.grandTotal()
