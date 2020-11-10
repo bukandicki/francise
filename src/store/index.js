@@ -1,11 +1,12 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import database from 'https://franchise-backend.herokuapp.com/db'
+// import database from 'https://franchise-backend.herokuapp.com/db'
 
 Vue.use(Vuex)
 
 export default new Vuex.Store({
     state: {
+        database: {},
         products: [],
         product: [],
         promos: [],
@@ -33,6 +34,14 @@ export default new Vuex.Store({
         partner: state => state.partner
     },
     actions: {
+        async fetchData (store){
+            return await fetch('https://franchise-backend.herokuapp.com/db')
+                    .then(resp => resp.json())
+                    .then(data => {
+                        store.commit('setFetchData', data)
+                        store.commit('setCartData', data)
+                    })
+        },
         getProducts({commit}){
             commit("setProductData")
         },
@@ -45,12 +54,6 @@ export default new Vuex.Store({
         getProduct({commit}, id){
             commit("setProduct", id)
         },
-        // addToCart({commit}, item){
-        //     commit("setItemToCart", item)
-        // },
-        getCart({commit}){
-            commit("setCartData")
-        },
         getProductProfile({commit}, product){
             commit("setProductProfile", product)
         },
@@ -62,26 +65,21 @@ export default new Vuex.Store({
         }
     },
     mutations: {
+        setFetchData(state, database) {
+            state.database = database
+        },
         setProductData(state) {
-            state.products = database.products
+            state.products = state.database.products
         },
         setPromosData(state) {
-            state.promos = database.promo
+            state.promos = state.database.promo
         },
-        setCartData(state) {
+        setCartData(state, database) {
             state.cart = database.cart
         },
         setPartnersData(state) {
-            state.partners = database.partners
+            state.partners = state.database.partners
         },
-        // setItemToCart(state, item){
-        //     const addedItem = state.cart.cart_items.find(product => product.id === item.id)
-        //     if (addedItem) {
-        //         addedItem.qty++
-        //     }else{
-        //         state.cart.cart_items.push({...item, qty: 1})
-        //     }
-        // },
         setPartner(state, id) {
             const data = state.partners.find(partner => partner.id == id)
             state.partner = data
