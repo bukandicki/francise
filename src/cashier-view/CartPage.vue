@@ -164,8 +164,14 @@
                   </td>
                   <td class="text-center">
                      <button
+                        @click="reduceProduct(items.product.id)"
+                        class="btn btn-warning"
+                     >
+                        -
+                     </button>
+                     <button
                         @click="deleteProduct(items.product.id)"
-                        class="btn btn-danger"
+                        class="btn btn-danger ml-2"
                      >
                         &times;
                      </button>
@@ -305,6 +311,58 @@ export default {
             // self promo
             return 1;
          }
+      },
+      reduceProduct(id) {
+         swal({
+            title: "Apa kamu yakin?",
+            text: "Jumlah item ini akan di kurangi!",
+            icon: "warning",
+            buttons: ["Batal", "Yakin"],
+            dangerMode: true,
+         }).then((willDelete) => {
+            if (willDelete) {
+               swal("Belanjaan berhasil dikurangi!", {
+                  icon: "success",
+               });
+               if (this.cart.cart_items.length <= 1) {
+                  let emptyCart = {
+                     ...this.cart,
+                  };
+                  emptyCart.cart_items = [];
+                  emptyCart.store = {};
+                  emptyCart.date = false;
+
+                  axios
+                     .put(
+                        "https://franchise-backend.herokuapp.com/cart/",
+                        emptyCart
+                     )
+                     .then(() => {
+                        location.reload();
+                     })
+                     .catch((error) => console.error(error));
+               } else {
+                  let cart_on_remove = {
+                     ...this.cart,
+                  };
+                  cart_on_remove.cart_items = cart_on_remove.cart_items.filter(
+                     (item) => item.product.id === id
+                  );
+
+                  cart_on_remove.cart_items[0].qty - 1
+                  
+                  axios
+                     .put(
+                        "https://franchise-backend.herokuapp.com/cart/",
+                        cart_on_remove
+                     )
+                     .then(() => {
+                        location.reload();
+                     })
+                     .catch((error) => console.error(error));
+               }
+            }
+         });
       },
       deleteProduct(id) {
          swal({

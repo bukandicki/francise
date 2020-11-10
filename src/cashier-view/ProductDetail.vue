@@ -51,13 +51,9 @@
                   }}
                </h3>
                <h2 class="d-block mb-5" v-else>
-                  <strike class="text-danger small"
-                     >Rp{{ product.price }}</strike
-                  >
                   <strong class="ml-2"
                      >Rp{{
-                        product.price -
-                           product.price * (parseInt(promo_id.amount) / 100)
+                        product.price
                      }}</strong
                   >
                </h2>
